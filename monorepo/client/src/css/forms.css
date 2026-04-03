@@ -1,0 +1,61 @@
+@layer components {
+  /* The signature light lavender background */
+  .gform-bg {
+    min-height: 100vh;
+    background-color: #f0ebf8;
+    font-family: sans-serif;
+    color: #202124;
+  }
+
+  /* The white card container with Material shadow */
+  .gform-card {
+    background-color: white;
+    border-radius: 0.5rem;
+    border: 1px solid #dadce0;
+    padding: 1.5rem;
+    box-shadow: 0 1px 2px 0 rgba(60,64,67,0.3), 0 1px 3px 1px rgba(60,64,67,0.15);
+  }
+
+  /* The decorative purple top bar */
+  .gform-header-stripe {
+    border-top: 10px solid #673ab7;
+  }
+
+  /* Standard Google-style inputs */
+  .gform-input-underline {
+    width: 100%;
+    border-bottom: 1px solid transparent;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    transition: border-color 200ms;
+  }
+  .gform-input-underline:focus {
+    border-bottom-color: #673ab7;
+    outline: none;
+  }
+
+  /* Buttons */
+  .gform-btn-filled {
+    background-color: #673ab7;
+    color: white;
+    padding: 0.5rem 1.5rem;
+    border-radius: 0.25rem;
+    font-weight: 500;
+    box-shadow: 0 1px 2px 0 rgba(0,0,0,0.05);
+    transition: background-color 150ms;
+  }
+  .gform-btn-filled:hover {
+    background-color: #512da8;
+  }
+
+  .gform-btn-text {
+    color: #673ab7;
+    font-weight: 500;
+    padding: 0.5rem 1rem;
+    border-radius: 0.25rem;
+    transition: background-color 150ms;
+  }
+  .gform-btn-text:hover {
+    background-color: #f6f2ff;
+  }
+}
